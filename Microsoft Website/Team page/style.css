@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    height: 98vh;
+    width: 100%;
+    background: white;
+}
+
+.navbar{
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+    font-size: 12px;
+}
+.header1{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgb(50, 50, 230);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-body{
+    display: flex;
+    width: 98%;
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+
+.division{
+    margin: 50px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.button{
+display: flex;
+gap: 10px;
+}
+.btn1{
+border: none;
+border-radius: 2px;
+width: 110px;
+height: 40px;
+color: white;
+background: rgb(50, 50, 230);
+cursor: pointer;
+}
+.btn2{
+border: 2px rgb(50, 50, 230) solid;
+color: rgb(50, 50, 230);
+background: none;
+width: 150px;
+height: 40px;
+cursor: pointer;
+}
+    
+
+
+.Teams{
+    display: flex;
+    width: 98%;
+    gap: 100px;
+    /* margin-left: 20px; */
+    font-size: 14px;
+
+}
+
+.division2{
+    margin: 50px;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+.pictures{
+    display: flex ;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 60px;
+    margin-left: -50px;
+}
+
+.Big-pictures{
+    display: flex;
+}
+.write-up1{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.Big-picture2{
+    cursor: pointer;
+}
+
+.write-up2{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.big-picture3{
+    cursor: pointer;
+}
+
+.write-up3{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.big-picture4{
+    cursor: pointer;
+}
+
+.write-up4{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.using-team{
+    display: flex;
+    font-weight:40px;
+      font-size: 32px; 
+      margin: 30px;
+       justify-content: center;
+       align-items: center;
+}
+
+.Main-container{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 10px;
+
+}
+.container1{
+    margin: 30px;
+}
+.container2{
+    margin: 30px;
+}
+.blue-div{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* gap: 20px; */
+    width: 100%;
+    height: 420px;
+    background:rgb(50, 50, 230) ;
+}
+
+.btn-div{
+    margin: 20px;
+    /* gap: 20px; */
+
+}
+
+.div-btn1{
+    border: none;
+    border-radius: 2px;
+    width: 110px;
+    height: 40px;
+    color: black;
+    background: white;
+    cursor: pointer;
+    }
+    .div-btn2{
+    border: 2px white solid;
+    color: white;
+    background: none;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    }
+
+    .blue-div{
+        display: flex;
+    }
+
+    .social-media{
+        display: flex;
+        margin: 50px;
+        margin-left: 100px;
+        gap: 30px;
+    }
+
+    .footer{
+        display: flex;
+        margin: 10px;
+        font-size: 12px;
+        background: whitesmoke;
+        line-height: 40px;
+        /* margin-top: 50px; */
+    }

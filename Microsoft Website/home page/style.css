@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    height: 98vh;
+    width: 100%;
+    background: white;
+}
+
+.navbar{
+    display: flex;
+    gap: 18px;
+    margin: 10px;
+}
+
+.header{
+    
+
+}
+
+.scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    gap: 30px;
+}
+
+.product{
+    display: flex;
+    margin: 10px;
+    margin-top: 50px;
+  
+}
+
+.phone{
+    margin: 55px;
+}
+
+.product2{
+    display: flex;
+    margin: 10px;
+    margin-left: 30px;
+  
+}
+
+.follow-ms{
+    display: flex;
+    margin: 40px;
+    gap: 40px;
+}
+
+
+.footer{
+    display: flex;
+    margin: 10px;
+    font-size: 12px;
+    background: whitesmoke;
+    line-height: 40px;
+    /* margin-top: 50px; */
+}

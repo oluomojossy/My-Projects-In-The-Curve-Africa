@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+    <div class="invoice">
+        <div class="header">
+            <h1>Invoice</h1>
+            <p>Date: <span id="invoiceDate">Date</span></p>
+        </div>
+        <div class="items">
+            <!-- Items will be added here dynamically using JavaScript -->
+        </div>
+        <div class="total">
+            <p>Total: #<span id="totalAmount">0.00</span></p>
+        </div>
+    </div>
+    <button id="addItem">Add Item</button>
+
+    <!-- Add a "Print Invoice" button -->
+<button id="printInvoice">Print Invoice</button>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Name Guessing Game</title>
+</head>
+<body>
+    <h1>Name Guessing Game</h1>
+    <p>Guess the name:</p>
+    <input type="text" id="userGuess" placeholder="Enter your guess">
+    <button id="checkGuess">Check</button>
+    <p id="message"></p>
+
+    <script>
+        // Array of names for the game
+        const names = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hannah"];
+        const randomIndex = Math.floor(Math.random() * names.length);
+        const targetName = names[randomIndex].toLowerCase(); // Convert to lowercase for case-insensitive matching
+        let attempts = 0;
+
+        // Get references to HTML elements
+        const userGuessInput = document.getElementById("userGuess");
+        const checkGuessButton = document.getElementById("checkGuess");
+        const messageParagraph = document.getElementById("message");
+
+        // Function to handle the user's guess
+        function checkGuess() {
+            const userGuess = userGuessInput.value.toLowerCase(); // Convert to lowercase for case-insensitive matching
+            attempts++;
+
+            if (userGuess === targetName) {
+                messageParagraph.textContent = `Congratulations! You guessed the name "${targetName}" in ${attempts} attempts.`;
+                checkGuessButton.disabled = true;
+                userGuessInput.disabled = true;
+            } else {
+                messageParagraph.textContent = "Try again.";
+            }
+
+            userGuessInput.value = "";
+            userGuessInput.focus();
+        }
+
+        // Attach the event listener
+        checkGuessButton.addEventListener("click", checkGuess);
+    </script>
+</body>
+</html>

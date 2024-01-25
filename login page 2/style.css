@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(135, 201, 255);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bold;
+}
+.login-page {
+padding-bottom: 400px;
+
+}
+
+form { background-color: #163125;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    width: 300px;
+    height: 200px;
+    
+}
+.input{
+    color: yellow;
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    margin-top: -15px;
+   
+    
+}
+.second-input{
+    margin-top: 10px;
+
+}
+
+.login-in-here{
+margin-left: 30px;
+margin-top: -15px;
+color: yellow;
+
+
+}
+p{
+    margin-left: 30px;
+}
+a {
+    color: yellow;
+}

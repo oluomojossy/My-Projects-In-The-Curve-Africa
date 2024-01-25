@@ -1,0 +1,25 @@
+.articleBody{
+    width: 33%;
+    height: 50%;
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.articleInnerBody{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button{
+    width: 35%;
+    height: 30%;
+    background: whitesmoke;
+    color: aqua;
+    border: none;
+} 

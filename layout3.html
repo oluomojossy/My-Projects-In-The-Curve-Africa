@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+	<html>
+		
+		<head>
+			<title>BLOCK 3</title>
+		</head>
+
+			<style>
+				*{	margin: 0;
+					padding: 0;
+					box-sizing: border-box;
+				}
+
+				body{	width: 100%;
+					height: 100vh;
+					background-color: lightgrey;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					gap: 20px;
+				}
+
+				p{	font-family: Arial;
+					font-size: 27px;
+				}
+		
+				main{	width: 70%;
+					height: 70%;
+					background-color: white;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					gap: 15px;
+					box-shadow: 100px solid grey;
+				}
+
+				button{	width: 100px;
+					height: 25px;
+					font-family: Arial;
+					font-size: 15px;
+				}
+			</style>
+			
+		<body>
+			<div style="width: 70%;height: 30px;display: flex;gap: 20px;">
+				<p>Complex layout with div</p>
+				<button>Toogle Border</button>
+			</div>
+
+			<main>
+				<section style="width: 57%;height: 90%;background-color: white;display: flex;flex-direction: column;gap: 15px;">
+
+					<div style="width: 100%;height: 49%;background-color: white;display: flex;gap: 15px;">
+						<div style="width: 40%;height: 100%;background-color: grey;padding: 20px;color: white;font-family: Arial;font-size: 30px;">A</div>
+						<div style="width: 60%;height: 100%;background-color: grey;padding: 20px;color: white;font-family: Arial;font-size: 30px;">B</div>
+					</div>
+
+					<div style="width: 100%;height: 49%;background-color: white;display: flex;gap: 15px;">
+						<div style="width: 20%;height: 100%;background-color: white;color: white;font-family: Arial;font-size: 30px;display: flex;flex-direction: column;gap: 15px;">
+							<div style="width: 100%;height: 49%;background-color: grey;padding: 20px;">C</div>
+							<div style="width: 100%;height: 49%;background-color: grey;padding: 20px;">D</div>
+						</div>
+						<div style="width: 80%;height: 100%;background-color: grey;padding: 20px;color: white;font-family: Arial;font-size: 30px;">E</div>
+					</div>
+
+				</section>
+				
+				<section style="width: 37%;height: 90%;background-color: white;display: flex;flex-direction: row;gap: 15px;">
+
+					<div style="width: 100%;height: 100%;background-color: grey;padding: 20px;font-family: Arial;font-size: 30px;color: white;">F</div>
+					<div style="width: 100%;height: 100%;background-color: white;display: flex;flex-direction: column;gap: 15px;">
+						<div style="width: 100%;height: 90%;background-color: grey;padding: 20px;font-family: Arial;font-size: 30px;color: white;">G</div>
+						<div style="width: 100%;height: 25%;background-color: grey;padding: 20px;font-family: Arial;font-size: 30px;color: white;">H</div>
+					</div>
+
+				</section>
+			</main>
+		</body>	
+	
+	</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+	<html>
+
+		<head>
+			<title>layout 6</title>
+		</head>
+
+			<style>
+				*{	margin: 0;
+					padding: 0;
+					box-sizing: border-box;
+				}
+				
+				body{	width: 100%;
+					height: 100vh;
+					background-color: orange;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				
+				main{	width: 70%;
+					height: 80%;
+					background-color: purple;
+					display: flex;
+					gap: 5px;
+				}
+			
+				section{	width: 40%;
+						height: 100%;
+						border: 5px solid red;
+						padding-top: 30px;
+						padding-left: 30px;
+						display: flex;
+						flex-direction: column;
+						gap: 20px;
+background-color: yellow;
+				}
+
+				Article{	width: 60%;
+						height: 100%;
+						background-color: transparent;
+						display: flex;
+						flex-direction: column;
+						justify-content: flex-start;
+						align-items: center;
+						gap: 25px;
+background-color:blue;
+				}
+				
+			</style>			
+
+		<body>
+			<main>
+				<section>
+					<div style="width: 80%;height: 70%;border: 2px solid black;padding-top: 20px;padding-left: 20px;display: flex;flex-direction: column;"></div>
+				
+					<div style="width: 100%;height: 40px;background-color: transparent;color: red;font-family: Arial;padding: 10px;font-size: 25px;">span 1</div>
+					<div style="width: 100%;height: 60px;background-color: trnsparent;color: red;font-family: Arial;font-size: 25px;display: flex;justify-content: center;align-items: center;">float left</div>
+				</section>
+
+				<Article>
+					<div style="width: 100%;height: 35%;background-color: white; display: flex; justify-content:space-between">
+						<div style="width: 33%;height: 200px; background-color:cyan; border: 4px solid red;padding-top: 20px;padding-left: 10px;display: flex;flex-direction: column;">
+							<div style="width: 80%;height: 38%;border: 2px solid black;padding-top: 20px;padding-left: 20px;display: flex;flex-direction: column;padding-top: 10px;padding-left: 10px;font-size: 20px;font-family: Arial;color: black;">text 1</div>
+
+							<div style="width: 100%;height: 60%;display: flex;flex-direction: column;gap: 1px;">
+								<div style="width: 100%;height: 45px;color: red;font-family: Arial;font-size: 25px;background-color: transparent;padding-top: 10px;padding-left: 20px;">floatleft</div>
+								<div style="width: 100%;height: 50px;background-color: transparent;color: red;padding-left: 10px;font-size: 17px;font-family: Arial;">span 2</div>
+							</div>
+						</div>
+
+						<div style="width: 33%;height: 200px; background-color:black; border: 4px solid red;padding-top: 20px;padding-left: 10px;">
+							<div style="width: 80%;height: 38%;border: 2px solid black;padding-top: 20px;padding-left: 20px;display: flex;flex-direction: column;padding-top: 10px;padding-left: 10px;font-size: 20px;font-family: Arial;color: black;">text 2</div>
+							<div style="width: 100%;height: 60%;display: flex;flex-direction: column;gap: 1px;">
+								<div style="width: 100%;height: 45px;color: red;font-family: Arial;font-size: 16px;background-color: transparent;padding-top: 10px;">100px right of span2</div>
+								<div style="width: 100%;height: 50px;background-color: transparent;color: red;padding-left: 10px;font-size: 17px;font-family: Arial;padding: 10px;">span 3</div>
+							</div>
+						</div><br>
+
+						<div style="width: 33%;height: 200px; background-color:green; border: 4px solid red;padding-top: 20px;padding-left: 50px;">
+							<div style="width: 50%;height: 38%;border: 2px solid black;padding-top: 20px;padding-left: 20px;display: flex;flex-direction: column;padding-top: 10px;padding-left: 10px;font-size: 20px;font-family: Arial;color: black;">text 3</div>
+							<div style="width: 100%;height: 60%;display: flex;flex-direction: column;gap: 1px;">
+								<div style="width: 100%;height: 45px;color: red;font-family: Arial;font-size: 25px;background-color: transparent;padding-top: 10px;">floatright</div>
+								<div style="width: 100%;height: 50px;background-color: transparent;color: red;padding-left: 10px;font-size: 17px;font-family: Arial;">span 4</div>
+							</div>
+						</div>
+					</div>
+					
+					<div style="width: 100%;height: 70%;background-color: pink;border: 4px solid red;padding-top: 20px;padding-left: 20px;">
+
+						<div style="width: 90%;height: 70%;border: 2px solid black;color: black;font-family: Arial;font-size: 25px;padding-top: 20px;padding-left: 20px;display: flex;flex-direction: column;">text 4</div>
+				
+					<div style="width: 100%;height: 40px;background-color: transparent;color: red;font-family: Arial;padding: 10px;font-size: 25px;">below text1,text2 and text 3</div>
+					<div style="width: 100%;height: 60px;background-color: trnsparent;color: red;font-family: Arial;font-size: 18px;display: flex;justify-content: flex-start;align-items: center;padding-left: 150px;">span 5</div>
+					</div>
+				</Article>
+
+				
+			</main>
+			
+		</body>
+
+	</html>

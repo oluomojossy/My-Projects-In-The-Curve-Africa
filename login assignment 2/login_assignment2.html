@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Login Page</title>
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#5546df;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+main { background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+}
+
+    input {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+button
+{
+    margin-top:10px;
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    width:300px;
+    height: 40px;
+    
+
+}
+
+.first-button{
+    background: #5546df;
+}
+
+
+.second-button{
+    background: blue;
+   
+}
+
+
+.third-button{
+    background: none;
+    color: #5546df;
+    border: 1px solid;
+}
+
+a {
+    text-decoration-line: none;
+    color (blue) 
+}
+
+
+.hr {
+
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    width: 32%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+
+img{
+   
+  width: 16px;
+}
+
+
+
+
+.password-input {
+  position: relative;
+  width: 93.5%;
+  margin-left: 10px;
+}
+
+#password {
+  padding-right: 30px; /* Space for the image */
+}
+
+#hide-image {
+  position: absolute;
+  top: 50%;
+  right: 30px; /* Adjust the right spacing */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+
+<main>
+    <h3>Signup</h3>
+<input placeholder="Email"> <br/>
+<input placeholder="Create password"><br/>
+
+
+
+
+<div class="password-input">
+    <input type="password" id="password" placeholder="Confirm password">
+    <img src="hide.png" alt="Hide" id="hide-image">
+  </div>
+
+
+
+<button class="first-button">Signup</button><br/>
+
+<p>Already have an account? <a href="#">Login</a></p>
+
+<div class="hr">
+<hr/>
+<span>or</span> 
+<hr/>
+</div>
+
+<button class="second-button" >
+    <img src="facebook.png" alt="Facebook icon" >
+    Login with facebook
+</button>
+<button class="third-button" >
+    <img src="search.png" alt="Google icon" >
+    Login with Google
+</button>
+
+
+
+
+
+</main>
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+	display: flex;  
+	justify-content: center;
+	align-items: center;
+	background: whitesmoke;
+  
+}
+
+
+main{
+    height: 80vh;
+    width: 60%;
+    background: white;
+    
+}
+
+.top{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.bottom{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+

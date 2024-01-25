@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    margin: 20px;
+}
+.header h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header p{
+    margin-bottom: 10px;
+}
+.items{
+    margin-bottom: 10px;
+}
+.total p{
+    margin-bottom: 10px;
+}
+#addItem {
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border:1px solid green;
+}
+.remove-item{
+    width: 70px;
+    height: 20px;
+    background-color: red;
+    border: red;
+    color: white;
+    font-weight: bold;
+}
